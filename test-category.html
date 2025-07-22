@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="bg-logo">
+          <img src="assets/images/logo.png" />
+        </a>
+        <a href="index.html"> <i class="fa fa-home"></i> Home</a>
+        <a href="about.html">About Us</a>
+        <a href="exam.html" class="active">Exam Packages </a>
+        <a href="live.html">Live Exams </a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="login.html" class="member-login">Member Login</a>
+        <a href="" class="mobile-number">9090909090</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+    <section class="bg-breadcrum py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>TEST CATEGORY</h2>
+          </div>
+          <div class="col-md-4 bread-right">
+            <a href="index.html"> Home </a>
+            <i class="fa fa-angle-double-right"></i>
+            <a href="exam.html"> Exam Packages </a>
+            <i class="fa fa-angle-double-right"></i> TEST CATEGORY
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="text-center  exam-card py-2">
+            <h3>Test Package</h3>
+            <h4>TEST Category</h4>
+            <div class="mb-3">Testing</div>
+            <span class="bg-strip"> <i class="fa fa-id-card-o"></i> P37 </span>
+            <div class="row mt-3">
+              <div class="col-md-6 border-right-dotted">
+                <b> <i class="fa fa-book"></i> Materials </b>
+                <div>0</div>
+              </div>
+              <div class="col-md-6">
+                <b> <i class="fa fa-youtube-play"></i>Videos </b>
+                <div>0</div>
+              </div>
+            </div>
+            <h3>5 Total Exams</h3>
+            <div class="row">
+              <div class="col-md-6 border-right-dotted">
+                <b> 5 Chapter tests </b>
+              
+              </div>
+              <div class="col-md-6"></div>
+            </div>
+
+            <h3 class="text-success">Free</h3>
+            <div class="text-center">
+             <a href="packagedetails.html">  <button class="btn apna-button">
+                <span> Read More.. </span>
+              </button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center bg-footer py-2">
+      <div class="container">
+        <div class="footer-links">
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a> | <br />
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a> |
+          <a href=""> Home </a> | <a href=""> Home </a>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col-md-4">
+            <div class="payment-images">
+              <img src="assets/images/visa.png" />
+              <img src="assets/images/paytm.jpg" />
+              <img src="assets/images/paypal.png" />
+              <img src="assets/images/american.png" />
+              <img src="assets/images/mastercard.png" />
+            </div>
+          </div>
+          <div class="col-md-4 order-md-3">
+            <div class="social-icons">
+              <i class="fa fa-facebook fb-clr"></i>
+              <i class="fa fa-twitter tw-clr"></i>
+              <i class="fa fa-linkedin li-clr"></i>
+              <i class="fa fa-youtube-play yt-clr"></i>
+              <i class="fa fa-instagram is-clr"></i>
+            </div>
+          </div>
+          <div class="col-md-4 order-md-2">
+            <h3>Design & Developed By</h3>
+            <h2>Veera</h2>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

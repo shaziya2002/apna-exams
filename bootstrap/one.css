@@ -1,0 +1,19 @@
+text-center{
+    text-align: center;
+}
+
+.accordion .card{
+    margin-bottom: 25px;
+}
+
+.banner-img{
+    width:100%;
+    height:400px;
+}
+.logo-1{
+    width:200px;
+    height:80px;
+}
+.navbar-dark.navbar-nav .nav-link{
+    color:#fff !important;
+}
